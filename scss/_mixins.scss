@@ -1,0 +1,14 @@
+@mixin settingNav(){
+background-color: $bcolor;
+margin-bottom:5vh ;
+padding:1em ;
+}
+
+// mixin avec argument
+
+@mixin longLarg($h,$w){
+
+    height:$h ;
+    width:$w ;
+    border:1 px solid lawngreen;
+}
